@@ -1,0 +1,1134 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Uncl",
+				"UnclosedTag"
+			],
+			[
+				"Un",
+				"UnclosedTag"
+			],
+			[
+				"ope",
+				"openTags"
+			],
+			[
+				"op",
+				"openTags"
+			],
+			[
+				"tag",
+				"tagGroup"
+			],
+			[
+				"las",
+				"lastTag"
+			],
+			[
+				"sp",
+				"specialClose"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"html",
+				"HTMLParser"
+			],
+			[
+				"HTML",
+				"HTMLParser"
+			],
+			[
+				"is",
+				"isLargeDesktop"
+			],
+			[
+				"isB",
+				"isBelowDesktop"
+			],
+			[
+				"li",
+				"listItemClasses"
+			],
+			[
+				"lis",
+				"listItemLinkClasses"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"no",
+				"noPadding"
+			],
+			[
+				"center",
+				"centerDesktop"
+			],
+			[
+				"section",
+				"sectionPadding"
+			],
+			[
+				"pa",
+				"padding: "
+			],
+			[
+				"secti",
+				"sectionPadding"
+			],
+			[
+				"mar",
+				"margin-bottom: "
+			],
+			[
+				"padd",
+				"padding-top: "
+			],
+			[
+				"fle",
+				"flex-flow: "
+			],
+			[
+				"al",
+				"align-items: "
+			],
+			[
+				"font-",
+				"font-size: "
+			],
+			[
+				"text",
+				"text-decoration: "
+			],
+			[
+				"src",
+				"srcPath"
+			],
+			[
+				"loaders",
+				"loadersConfig"
+			],
+			[
+				"vu",
+				"vueLoader"
+			],
+			[
+				"cs",
+				"css-loader"
+			],
+			[
+				"pro",
+				"prodCSSLoaderOptions"
+			],
+			[
+				"pr",
+				"prodCSSLoaderOptions"
+			],
+			[
+				"def",
+				"defaultCSSLoaderOptions"
+			],
+			[
+				"de",
+				"defaultCSSLoaderOptions"
+			],
+			[
+				"d",
+				"defaultCSSLoaderOptions"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"st",
+				"staticBuildPath"
+			],
+			[
+				"public",
+				"publicPath"
+			],
+			[
+				"map",
+				"mapKeys"
+			],
+			[
+				"i",
+				"identity"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"isL",
+				"isListing"
+			],
+			[
+				"marg",
+				"margin-left: "
+			],
+			[
+				"conten",
+				"contentClass"
+			],
+			[
+				"sid",
+				"sideMenuWidth"
+			],
+			[
+				"g",
+				"globaleState"
+			],
+			[
+				"Mob",
+				"MobileMainMenu"
+			],
+			[
+				"Fad",
+				"FadeTransition"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"pos",
+				"postcss"
+			],
+			[
+				"stre",
+				"stretchVertical"
+			],
+			[
+				"str",
+				"stretchHorizontal"
+			],
+			[
+				"par",
+				"parseQuery"
+			],
+			[
+				"get",
+				"getExpiration"
+			],
+			[
+				"deskt",
+				"desktopWidth"
+			],
+			[
+				"css",
+				"cssLoaderConfig"
+			],
+			[
+				"vue",
+				"vueSettings"
+			],
+			[
+				"W",
+				"WishlistMenuItems"
+			],
+			[
+				"pad",
+				"padding: "
+			],
+			[
+				"wish",
+				"wishlistType"
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"wishl",
+				"wishlistId"
+			],
+			[
+				"edit",
+				"editWishlist"
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
+				"Ful",
+				"FullSlideTransition"
+			],
+			[
+				"Fu",
+				"FullSlideTransition"
+			],
+			[
+				"M",
+				"MainNavlinks"
+			],
+			[
+				"hand",
+				"handleOverlayClick"
+			],
+			[
+				"cosn",
+				"console"
+			],
+			[
+				"gi",
+				"giftExchange"
+			],
+			[
+				"re",
+				"requestLogin"
+			],
+			[
+				"App",
+				"AppWrapper"
+			],
+			[
+				"default",
+				"defaultWishlist"
+			],
+			[
+				"co",
+				"components"
+			],
+			[
+				"sc",
+				"screenWidths"
+			],
+			[
+				"sel",
+				"selectedId"
+			],
+			[
+				"from",
+				"fromDepth"
+			],
+			[
+				"to",
+				"toDepth"
+			],
+			[
+				"ne",
+				"newVal"
+			],
+			[
+				"sele",
+				"selectedWishlistId"
+			],
+			[
+				"rout",
+				"routeAction"
+			],
+			[
+				"se",
+				"selectedId"
+			],
+			[
+				"selec",
+				"selectedWishlist"
+			],
+			[
+				"Wsi",
+				"WishlistsList"
+			],
+			[
+				"WishlistsS",
+				"WishlistsList"
+			],
+			[
+				"Wi",
+				"WishlistsSideMenu"
+			],
+			[
+				"wis",
+				"wishlist"
+			],
+			[
+				"wishlistView",
+				"wishlistViewKey"
+			],
+			[
+				"Fa",
+				"FadeTransition"
+			],
+			[
+				"Sl",
+				"SlideFadeGroupTransition"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"dire",
+				"directionUpper"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"Sli",
+				"SlideFadeTransition"
+			],
+			[
+				"tr",
+				"transitionItem"
+			],
+			[
+				"slid",
+				"slideItem"
+			],
+			[
+				"sldi",
+				"slideItem"
+			],
+			[
+				"ent",
+				"enterClass"
+			],
+			[
+				"sli",
+				"slideLeftLeaveActive"
+			],
+			[
+				"slideLe",
+				"slideLeftLeaveActive"
+			],
+			[
+				"slideR",
+				"slideRightLeaveActive"
+			],
+			[
+				"select",
+				"selectedId"
+			],
+			[
+				"transi",
+				"transitionClasses"
+			],
+			[
+				"slide",
+				"slideRightEnter"
+			],
+			[
+				"sl",
+				"slideLeftLeaveActive"
+			],
+			[
+				"box-s",
+				"box-sizing: "
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"border-b",
+				"border-bottom-right-radius: "
+			],
+			[
+				"border-to",
+				"border-top-left-radius: "
+			],
+			[
+				"color",
+				"color-primary"
+			],
+			[
+				"bac",
+				"background-color: "
+			],
+			[
+				"defau",
+				"defaultWishlist"
+			],
+			[
+				"wi",
+				"wishlist"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"Fai",
+				"FailedListing"
+			],
+			[
+				"Re",
+				"RequestStatuses"
+			],
+			[
+				"isD",
+				"isDeleting"
+			],
+			[
+				"getR",
+				"getResourceMutationNames"
+			],
+			[
+				"getResourceGer",
+				"getResourceGetterNames"
+			],
+			[
+				"Save",
+				"SavedStatuses"
+			],
+			[
+				"name",
+				"namespaceEndOfValues"
+			],
+			[
+				"create",
+				"createDraft"
+			],
+			[
+				"nam",
+				"namespaceEndOfKeys"
+			],
+			[
+				"na",
+				"namespaceKeys"
+			],
+			[
+				"res",
+				"resourceMutations"
+			],
+			[
+				"names",
+				"namespaceKey"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 3019,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1461,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 18,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"last_filter": "rem",
+		"selected_items":
+		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 409.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/adrian/Documents/CodingProjects/validateTags",
+		"/Users/adrian/Documents/CodingProjects/validateTags/lib",
+		"/Users/adrian/Documents/CodingProjects/validateTags/src"
+	],
+	"file_history":
+	[
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/vue/DesktopVueApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/index.html",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/ElfFooter.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/vue.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/utils.pcss",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/variables.pcss",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/webpack.base.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/webpack.prod.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/build.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/webpack.loaders.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/postcss.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/main.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/variables.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/.eslintrc.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/clean.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/server.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/test/test.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/BaseWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/AppWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/vue/VueApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/utils.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/mixins.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/icons.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/elements.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/webpack.prod.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/webpack.loaders.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/webpack.deploy.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/webpack.base.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/deployConfig.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/stylelint.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/cssloader.config.js",
+		"/Users/adrian/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/base.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/utils.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/vue/MobileVueApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/App.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/MobileWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/vue/VueScreen.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/variables.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/vueloader.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/router/vue.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/router/index.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/router/core.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/NotFound.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/vue/VueItemScreen.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/vue/VueContent.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/core/DesktopWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/.gitignore",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/time.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/store/elfGetters.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/.babelrc",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/scripts/deployConfig.j",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/vartest.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/styles/fontello/icons.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/test.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/test2.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.a8987fd4d75f884904eb.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.c85c0823ec8f76d82d00.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.29c401b1045fc8be60f9.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.c69f29f84770897d9ea3.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/maceo/element/closest.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/maceo/utils.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/maceo/helpers/handleIf.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.4ea4f21e8b0033296d2b.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.a99c1e80b4bc36dad4ca.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfcode/web/Elfster.com/apps/vue/static/app.build.23c6dfdafbbde30c461a.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/README.md",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/router/app.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/VueScreen.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/VueItemScreen.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/components/apps/Vue2Screen.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/store/index.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/url.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/str.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/obj.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/arr.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/store/restStore/mutations.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/store/restStore/getters.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/store/restStore/actions.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/router/index.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/DOM/ElementsStack.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client/client/utils/DOM/index.js",
+		"/Users/adrian/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/adrian/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/styles/transitions.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/ui/button.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/BaseWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishViewMode.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistView.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistsSideMenu.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistsList.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistMenuItem.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/landing/HomePage.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/styles/layoutVariables.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/package.json",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/plugins/generalComponents.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/main.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/styles/base.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/App.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/webpack.base.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/vueloader.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/cssloader.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/stylelint.config.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/giftExchanges/GiftExchangeApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/AppWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/DesktopWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/MobileWrapper.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/MainNavLinks.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/core/SignOutMenu.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/desktop/DesktopWishlistApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/mobile/MobileWishlistApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/AddWish.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/DefaultWishlist.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/Wish.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/Wishes.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistsApp.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistMenuItems.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/AddWishlistBtn.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishlistEdit.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/store/modules/wishlists.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/apps/wishlists/WishEditMode.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/styles/elements.css",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/styles/screenWidths.js",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/transitions/Fade.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/transitions/FullSlide.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/transitions/SlideFade.vue",
+		"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components/transitions/SlideFadeGroup.vue"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/Users/adrian/Documents/CodingProjects/Elfster/elfster-vue-client",
+			"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/",
+			"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient/client/components",
+			"/Users/adrian/Documents/CodingProjects/Elfster/elfnext/ElfWishListClient",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"maceo",
+			"stack",
+			"lastItem",
+			"item",
+			";",
+			",",
+			"stack",
+			"html",
+			"parseE",
+			"handler",
+			"HTMLP",
+			"handler",
+			"MediaQuery",
+			"composes",
+			"this.$style.",
+			"$",
+			"calc(",
+			"composes",
+			"['icon-']",
+			"ser-p",
+			"iconF",
+			"iconT",
+			"iconS",
+			"iconL",
+			"conC",
+			"iconLogout",
+			"icon-",
+			"icon-rss",
+			"icon-facebook",
+			"icon-twitter",
+			"icon-search",
+			"icon-link",
+			"icon-cog",
+			"icon-logout",
+			"icon-",
+			"user",
+			"icon-",
+			" target=\"_blank\"\n      :class=",
+			"$style.screenReader",
+			"$style",
+			"gcss",
+			" = ",
+			"composes",
+			"isTablet",
+			"isMobile",
+			":class='listItemClasses'",
+			":class='listItemLinkClasses'",
+			"desktopWidth",
+			"isMobile ? [gcss.noPadding, gcss.block, gcss.centerText] : null",
+			"isTablet ? [gcss.noPadding, gcss.block] : null",
+			"isMobile ? [gcss.noPadding, gcss.block] : null ",
+			"utilSt",
+			"$gcss",
+			"$gcc",
+			"helperStyles",
+			"isTablet ? [$gcss.noPadding, $gcc.block]",
+			"centerText]'",
+			"'>",
+			"?",
+			"isTablet",
+			"a :class='isTablet",
+			"$style.footerLink",
+			"isMobile",
+			"$style.footerLinkItem",
+			"<a",
+			"<a ",
+			"<li>",
+			"<li",
+			"pstyles",
+			"@",
+			"composes/",
+			"postcss-loader!",
+			".css",
+			"tyles/icons",
+			"addCssModulesToLoader",
+			"postcss-loader!",
+			"^",
+			"</a>",
+			"<span></span>",
+			"'postcss-loader!styles/icons'",
+			"nTwi",
+			"iconTwitter",
+			"icon-base",
+			"icon-twitter",
+			"irst",
+			"$desktopWidth",
+			"__dirname",
+			"scripts",
+			"clean",
+			"scripts/",
+			"cssLoaderConfig",
+			"config",
+			"publicPath",
+			"styles/variables",
+			"@value",
+			"elfPink",
+			"$elfPink",
+			"elfPink",
+			"vartest",
+			"$desktopWidth",
+			"@value ",
+			"Component",
+			"'",
+			":class='$style.link'",
+			"ui/fonts",
+			"?59060667",
+			":before",
+			"Wishlist",
+			"})",
+			"curry(",
+			"some",
+			"stringy",
+			"\"string\"==typeof",
+			"==typeof",
+			"reduce",
+			"scream",
+			".some",
+			"some",
+			"fp.",
+			"keys",
+			"fp.",
+			"fp",
+			"lodash",
+			"publicPath",
+			"var",
+			"vue",
+			"><",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$elfPink",
+			"elfPink",
+			"$elfPink",
+			"all 0.2s",
+			"0.55, 0, 0.1, 1",
+			"state.getters.local",
+			"var(--color-light-gray)",
+			"var(--color-primary)",
+			"var(--color-danger)",
+			"@import 'styles/variables'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 270.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/eslint-fix-file.sublime-build",
+	"project": "validateTags.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p",
+				"ElfWishListClient/package.json"
+			],
+			[
+				"rest",
+				"ElfWishListClient/client/store/restStore.js"
+			],
+			[
+				"rese",
+				"ElfWishListClient/client/store/restStore.js"
+			],
+			[
+				"pack",
+				"ElfWishListClient/package.json"
+			],
+			[
+				"wishlists.",
+				"ElfWishListClient/client/store/modules/wishlists.js"
+			],
+			[
+				"wishlistmen",
+				"ElfWishListClient/client/components/WishlistMenuItem.vue"
+			],
+			[
+				"wish.vu",
+				"ElfWishListClient/client/components/Wish.vue"
+			],
+			[
+				"wishlistviewmode.vue",
+				"ElfWishListClient/client/components/WishlistViewMode.vue"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				".addButton"
+			]
+		],
+		"width": 494.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
