@@ -5,3 +5,5 @@ npm-debug.log.*
 dist
 coverage
 lib
+*.sublime-project
+*.sublime-workspace
