@@ -11,9 +11,7 @@ const beginEndTag = '</'
 
 function validateCloseOrder (tags, errors) {
   let tagIndex = -1
-  // console.log(tags, errors)
   while (++tagIndex < tags.length) {
-    // console.log(tagIndex)
     const tag = tags[tagIndex]
     if (tag.type === 'close') {
       let isError = false
@@ -74,11 +72,9 @@ function formatError (type, tag) {
 
 function findLineCol (lines, currentLine, currentCol, term) {
   let lineIndex = currentLine - 1
-  // console.log('beforeFindTerm', term, 'lineIndex', lineIndex + 1, 'lines', lines.length, 'currentLine', currentLine, 'currentCol', currentCol)
   while (++lineIndex < lines.length) {
     const line = lines[lineIndex]
     if (line.length) {
-      // console.log('lineHasLength')
       let colIndex
       if (lineIndex === currentLine) {
         colIndex = currentCol
@@ -86,7 +82,6 @@ function findLineCol (lines, currentLine, currentCol, term) {
         colIndex = 0
       }
       if (colIndex < line.length) {
-        // console.log('colIndex is within line')
         let termIndex
         if (!term && line.substring(colIndex).length) {
           termIndex = colIndex
@@ -96,9 +91,6 @@ function findLineCol (lines, currentLine, currentCol, term) {
             termIndex += colIndex
           }
         }
-
-        // console.log('line', line, 'term', term, 'termIndex', termIndex, 'currentLine', currentLine, 'lineIndex', lineIndex, 'currentCol', currentCol)
-
         if (termIndex !== -1) {
           return {
             line: lineIndex,
@@ -252,23 +244,19 @@ function validateNextTag (lines, line, col) {
   const result = findLineCol(lines, line, col, '<')
 
   if (result.line < lines.length) {
-    // console.log('found next tag', result.line, result.col)
     const currentLine = result.line
     const currentCol = result.col
 
     const currentLineText = lines[currentLine].substring(currentCol)
 
     if (currentLineText.indexOf(startComment) === 0) {
-      // console.log('validation comment', lines, currentLine, currentCol + startComment.length)
       return validateStartComment(lines, currentLine, currentCol + startComment.length)
     }
 
     if (currentLineText.indexOf(beginEndTag) === 0) {
-      // console.log('validation closeTag', lines, currentLine, currentCol)
       return validateEndTag(lines, currentLine, currentCol)
     }
 
-    // console.log('validation startTag', lines, currentLine, currentCol)
     return validateStartTag(lines, currentLine, currentCol)
   }
 
@@ -278,7 +266,7 @@ function validateNextTag (lines, line, col) {
   }
 }
 
-module.exports = function validateTags (input) {
+function validateTags (input) {
   const lines = input.split('\n')
   const tags = []
   const errors = []
@@ -318,3 +306,5 @@ module.exports = function validateTags (input) {
     errors: fp.orderBy(['tag.line', 'tag.col'], ['asc'], errors)
   }
 }
+
+module.exports = validateTags
