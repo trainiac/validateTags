@@ -53,20 +53,21 @@ function validateOpenClose (tags, errors) {
   }, grouped)
 }
 
-function formatError (type, tag) {
-  let message
-  if (type === 'UnclosedTag') {
-    message = `Unclosed ${tag.name} tag`
-  } else if (type === 'UnclosedComment') {
-    message = 'Unclosed comment'
+function formatError (rule, tag) {
+  let text
+  if (rule === 'UnclosedTag') {
+    text = `Unclosed ${tag.name} tag`
+  } else if (rule === 'UnclosedComment') {
+    text = 'Unclosed comment'
   } else {
-    message = `Unexpected ${tag.name} closing tag`
+    text = `Unexpected ${tag.name} closing tag`
   }
 
   return {
-    type,
-    message,
-    tag
+    rule,
+    text,
+    line: tag.line + 1,
+    column: tag.col + 1
   }
 }
 
@@ -74,29 +75,34 @@ function findLineCol (lines, currentLine, currentCol, term) {
   let lineIndex = currentLine - 1
   while (++lineIndex < lines.length) {
     const line = lines[lineIndex]
-    if (line.length) {
-      let colIndex
-      if (lineIndex === currentLine) {
-        colIndex = currentCol
-      } else {
-        colIndex = 0
+    if (!line.length) {
+      continue
+    }
+
+    let colIndex
+    if (lineIndex === currentLine) {
+      colIndex = currentCol
+    } else {
+      colIndex = 0
+    }
+
+    if (colIndex >= line.length) {
+      continue
+    }
+
+    let termIndex
+    if (!term && line.substring(colIndex).length) {
+      termIndex = colIndex
+    } else if (term) {
+      termIndex = line.substring(colIndex).indexOf(term)
+      if (termIndex !== -1) {
+        termIndex += colIndex
       }
-      if (colIndex < line.length) {
-        let termIndex
-        if (!term && line.substring(colIndex).length) {
-          termIndex = colIndex
-        } else if (term) {
-          termIndex = line.substring(colIndex).indexOf(term)
-          if (termIndex !== -1) {
-            termIndex += colIndex
-          }
-        }
-        if (termIndex !== -1) {
-          return {
-            line: lineIndex,
-            col: termIndex
-          }
-        }
+    }
+    if (termIndex !== -1) {
+      return {
+        line: lineIndex,
+        col: termIndex
       }
     }
   }
@@ -109,7 +115,6 @@ function findLineCol (lines, currentLine, currentCol, term) {
 
 function validateStartComment (lines, line, col) {
   const result = findLineCol(lines, line, col, endComment)
-  console.log('result of search for comment', result, lines, line, col, endComment)
   if (result.line < lines.length) {
     return {
       line: result.line,
@@ -158,8 +163,6 @@ function validateStartTag (lines, line, col) {
   const html = lines.slice(line).join('\n')
   const htmlAtCol = html.substring(col)
   const match = htmlAtCol.match(startTag)
-
-  console.log('validateStartTag', match, 'html', html, 'htmlAtCol', htmlAtCol)
 
   if (match) {
     const matchLines = match[0].split('\n')
@@ -266,7 +269,7 @@ function validateNextTag (lines, line, col) {
   }
 }
 
-function validateTags (input) {
+function validateTagsInput (input) {
   const lines = input.split('\n')
   const tags = []
   const errors = []
@@ -276,9 +279,9 @@ function validateTags (input) {
   let lastCol = col
 
   while (findLineCol(lines, line, col).line < lines.length) {
-    // console.log('beforeValidation', line, col)
+
     const validation = validateNextTag(lines, line, col)
-    // console.log('validation', validation)
+
     if (validation.error) {
       errors.push(validation.error)
     }
@@ -307,4 +310,7 @@ function validateTags (input) {
   }
 }
 
-module.exports = validateTags
+module.exports = function validateTags (input) {
+  const result = validateTagsInput(input)
+  return new Promise(resolve => resolve(result))
+}
