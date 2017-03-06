@@ -224,8 +224,6 @@ function validateStartTag (lines, line, col) {
       newCol = fp.last(matchLines).length
     }
 
-    console.log(match)
-
     return {
       tag: {
         type: match[1] === 'meta' ? 'self-closing' : 'open',
@@ -281,7 +279,6 @@ function validateTagsInput (input) {
   let lastCol = col
 
   while (findLineCol(lines, line, col).line < lines.length) {
-
     const validation = validateNextTag(lines, line, col)
 
     if (validation.error) {
