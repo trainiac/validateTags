@@ -1,11 +1,11 @@
 const fp = require('lodash/fp')
 // Regular Expressions for parsing tags and attributes
-const startTag = /^<([-A-Za-z0-9_]+)((?:\s+[\w-@:]+(?:\s*=\s*(?:(?:"[^"]*")|(?:'[^']*')|[^>\s]+))?)*)\s*(\/?)>/
+const startTag = /^<([-A-Za-z0-9_]+)((?:\s+[\w-@:.]+(?:\s*=\s*(?:(?:"[^"]*")|(?:'[^']*')|[^>\s]+))?)*)\s*(\/?)>/
 const endTag = /^<\/([-A-Za-z0-9_]+)[^>]*>/
 
 // Special Elements (can contain anything)
 const special = ['script', 'style']
-const endComment = '--->'
+const endComment = '-->'
 const startComment = '<!--'
 const beginEndTag = '</'
 
@@ -224,9 +224,11 @@ function validateStartTag (lines, line, col) {
       newCol = fp.last(matchLines).length
     }
 
+    console.log(match)
+
     return {
       tag: {
-        type: 'open',
+        type: match[1] === 'meta' ? 'self-closing' : 'open',
         name: match[1],
         line,
         col
