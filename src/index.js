@@ -189,7 +189,7 @@ function validateStartTag (lines, line, col) {
     if (special.indexOf(match[1]) !== -1) {
       const afterStartTag = htmlAtCol.substring(match[0].length)
 
-      const specialContentToEnd = new RegExp(`([^]*)(</${match[1]}[^>]*>)`)
+      const specialContentToEnd = new RegExp(`([^]*?)(</${match[1]}[^>]*>)`)
       const specialContentToEndMatch = afterStartTag.match(specialContentToEnd)
       if (!specialContentToEndMatch) {
         return {

@@ -1,7 +1,7 @@
 {
   "name": "validate-tags",
   "description": "Validates that tags are open or closed",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "homepage": "https://github.com/trainiac/validateTags",
   "author": {
     "name": "Adrian William Adkison",
